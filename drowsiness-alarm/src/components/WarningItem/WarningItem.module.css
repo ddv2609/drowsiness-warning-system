@@ -1,0 +1,38 @@
+.item {
+  border-radius: 18px;
+  border: 1.5px solid rgba(247, 199, 43, 0.3);
+  padding: 8px 24px;
+  min-width: 924px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: rgba(247, 199, 43, 0.15) 0px 2px 2px;
+  animation-name: slider;
+  animation-duration: 1s;
+}
+
+.item .icon {
+  width: 100%;
+  font-size: 28px;
+  color: #F7C72B;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.item .content {
+  font-size: 16px;
+}
+
+.item .time {
+  padding: 6px;
+  border-radius: 12px;
+  background-color: rgba(247, 199, 43, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@keyframes slider {
+  from {margin-top: 112px;}
+  to {margin-top: 0px;}
+}

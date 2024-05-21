@@ -1,0 +1,15 @@
+.statistical {
+  min-height: 80vh;
+}
+
+.statistical .wrapperStatistical {
+  padding: 4px 36px;
+}
+
+.statistical .wrapperStatistical .description {
+  text-align: center;
+  margin-top: 18px;
+  margin-bottom: 16px;
+  font-size: 16px;
+  font-weight: 500;
+}

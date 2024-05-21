@@ -1,0 +1,8 @@
+.picker .time {
+  padding-bottom: 12px;
+  margin-bottom: 16px;
+}
+
+.picker .endTime {
+  text-align: right;
+}
